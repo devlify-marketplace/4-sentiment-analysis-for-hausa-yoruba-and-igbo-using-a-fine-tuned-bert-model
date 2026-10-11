@@ -1,0 +1,45 @@
+{
+  "project": "Topic 4 — Hausa, Yoruba and Igbo sentiment analysis",
+  "model_id": "Davlan/afro-xlmr-base",
+  "dataset_id": "HausaNLP/NaijaSenti-Twitter",
+  "dataset_version": "1.0.0",
+  "labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "languages": [
+    "hau",
+    "yor",
+    "ibo"
+  ],
+  "seed": 42,
+  "epochs_requested": 2,
+  "epochs_completed": 2,
+  "best_epoch": 2,
+  "best_validation_macro_f1": 0.6370979340247415,
+  "max_length": 96,
+  "batch_size": 8,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "max_train_per_language": 1000,
+  "max_eval_per_language": 800,
+  "train_rows": 3000,
+  "split_counts": {
+    "hau_train": 1000,
+    "yor_train": 1000,
+    "ibo_train": 1000,
+    "hau_validation": 800,
+    "yor_validation": 800,
+    "ibo_validation": 800,
+    "hau_test": 800,
+    "yor_test": 800,
+    "ibo_test": 800
+  },
+  "device": "cpu",
+  "duration_seconds": 2557.2,
+  "protocol": "official train/validation/test splits; checkpoint selected only on validation macro-F1; test evaluated once",
+  "dataset_manifest": "data/raw/manifest.json",
+  "model_license": "MIT (pretrained checkpoint); see model card",
+  "data_license_note": "NaijaSenti dataset card states CC BY-NC-SA 4.0; see docs/DATA_PROVENANCE.md"
+}

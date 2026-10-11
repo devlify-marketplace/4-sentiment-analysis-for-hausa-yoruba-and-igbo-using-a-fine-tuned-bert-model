@@ -1,0 +1,88 @@
+{
+  "dataset_id": "HausaNLP/NaijaSenti-Twitter",
+  "dataset_version": "1.0.0 (as described in the dataset card)",
+  "retrieved_at_utc": "2026-10-10T10:19:30.138755+00:00",
+  "source_repository": "https://github.com/hausanlp/NaijaSenti",
+  "dataset_card": "https://huggingface.co/datasets/HausaNLP/NaijaSenti-Twitter",
+  "download_method": "publisher's raw GitHub TSV files; no remote dataset code executed",
+  "languages": [
+    "hau",
+    "yor",
+    "ibo"
+  ],
+  "splits": {
+    "hau_train.csv": {
+      "rows": 14172,
+      "sha256": "ac0457ee4d1fdd41eeacedb41a16f8f6ca7a261295c7fbcbd9c15f637a5f6848",
+      "bytes": 1411175,
+      "source_split": "train",
+      "source_url": "https://raw.githubusercontent.com/hausanlp/NaijaSenti/main/data/annotated_tweets/hau/train.tsv",
+      "source_sha256": "0a125f4528d1ae86b112ec5d3d66312fcb154883a5a021c6ab913cd2ce877d87"
+    },
+    "hau_validation.csv": {
+      "rows": 2677,
+      "sha256": "9a4bdbfdcaa108eef9767ee1ca0a211c1c6af72aea4a51bf3f99c7abcc4b1ad2",
+      "bytes": 276672,
+      "source_split": "dev",
+      "source_url": "https://raw.githubusercontent.com/hausanlp/NaijaSenti/main/data/annotated_tweets/hau/dev.tsv",
+      "source_sha256": "6f895e66fb732b45fad926315841c41da8fc03dde2aef3a5386183bdcf15221b"
+    },
+    "hau_test.csv": {
+      "rows": 5303,
+      "sha256": "b1e81d2e5122f0a1297f6015b2a85524cecfea91be5bc5d8870d8ab47d7040bd",
+      "bytes": 429481,
+      "source_split": "test",
+      "source_url": "https://raw.githubusercontent.com/hausanlp/NaijaSenti/main/data/annotated_tweets/hau/test.tsv",
+      "source_sha256": "29b2193808935c459e323b4434f9d1e1968883eed273617f43510b7127a3fa0a"
+    },
+    "yor_train.csv": {
+      "rows": 8522,
+      "sha256": "273be91b2175a6e568edf3577db04cac5bb89ecd904472c65be6a5d865a0fe12",
+      "bytes": 1377090,
+      "source_split": "train",
+      "source_url": "https://raw.githubusercontent.com/hausanlp/NaijaSenti/main/data/annotated_tweets/yor/train.tsv",
+      "source_sha256": "2ef112428030c5b209178b8fdb479f83152c75dcd9279726937968e9093270b0"
+    },
+    "yor_validation.csv": {
+      "rows": 2090,
+      "sha256": "31c62a5d753847afdef05c4a331b7b164b253ac846a3c92e1190419a1c53a615",
+      "bytes": 341572,
+      "source_split": "dev",
+      "source_url": "https://raw.githubusercontent.com/hausanlp/NaijaSenti/main/data/annotated_tweets/yor/dev.tsv",
+      "source_sha256": "1a48880716ef3e697b1ce9bcde6a3c63d9f59afb7fe217fc882cf2e330e60100"
+    },
+    "yor_test.csv": {
+      "rows": 4515,
+      "sha256": "61c20f106e3b6fcb42702b39fd3e9374a71b63250e6c6ef8c1206d761aaa3551",
+      "bytes": 572617,
+      "source_split": "test",
+      "source_url": "https://raw.githubusercontent.com/hausanlp/NaijaSenti/main/data/annotated_tweets/yor/test.tsv",
+      "source_sha256": "e323bfea0c888675e8b3e51413e9e4612ead674fc3d9d3a8c5485175adf88e1e"
+    },
+    "ibo_train.csv": {
+      "rows": 10192,
+      "sha256": "b7b93ca28c461cae479890458357d6c49eb165a5fbcc8a436d430bbf8ec85807",
+      "bytes": 910589,
+      "source_split": "train",
+      "source_url": "https://raw.githubusercontent.com/hausanlp/NaijaSenti/main/data/annotated_tweets/ibo/train.tsv",
+      "source_sha256": "6f0fb58fbaff2401d8944d41bae53cc7dafe1ccae7de42a81915ddc974abb300"
+    },
+    "ibo_validation.csv": {
+      "rows": 1841,
+      "sha256": "215095fbd27ab431b06357c326a4af3ccd5ed89e0f110b68fc5f45ed356706bd",
+      "bytes": 164377,
+      "source_split": "dev",
+      "source_url": "https://raw.githubusercontent.com/hausanlp/NaijaSenti/main/data/annotated_tweets/ibo/dev.tsv",
+      "source_sha256": "a52e7248af999b65a7d49e11d781b08c2528411ef25d8b9419c7e6280622e8f8"
+    },
+    "ibo_test.csv": {
+      "rows": 3682,
+      "sha256": "cdec0921fbd69d8afc1da2fd07af3cdff798ba361b61362c76b471f43a3c079c",
+      "bytes": 235805,
+      "source_split": "test",
+      "source_url": "https://raw.githubusercontent.com/hausanlp/NaijaSenti/main/data/annotated_tweets/ibo/test.tsv",
+      "source_sha256": "b91481b377e96b394b96e04dd2577c335fe117e03271dcbf0f4da2a7b785b92f"
+    }
+  },
+  "license_note": "Dataset card states CC BY-NC-SA 4.0; see docs/DATA_PROVENANCE.md."
+}

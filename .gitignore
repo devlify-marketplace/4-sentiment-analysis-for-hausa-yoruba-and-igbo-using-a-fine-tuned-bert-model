@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.DS_Store
+*.log
+# Dataset content is retrieved through scripts/download_data.py and has its own license.
+data/raw/*.csv
+# Preserve trained model and reports as deliverables; ignore only temporary checkpoints.
+artifacts/checkpoint-*/

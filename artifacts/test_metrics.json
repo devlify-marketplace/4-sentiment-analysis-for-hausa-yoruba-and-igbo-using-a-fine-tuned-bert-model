@@ -1,0 +1,201 @@
+{
+  "overall": {
+    "accuracy": 0.5995833333333334,
+    "macro_precision": 0.5877882460019354,
+    "macro_recall": 0.583939137645279,
+    "macro_f1": 0.5841409760981976,
+    "weighted_f1": 0.5958262708992795,
+    "per_class": {
+      "negative": {
+        "precision": 0.5018587360594795,
+        "recall": 0.4192546583850932,
+        "f1-score": 0.45685279187817257,
+        "support": 644.0
+      },
+      "neutral": {
+        "precision": 0.5905905905905906,
+        "recall": 0.6497797356828194,
+        "f1-score": 0.6187729417933928,
+        "support": 908.0
+      },
+      "positive": {
+        "precision": 0.6709154113557358,
+        "recall": 0.6827830188679245,
+        "f1-score": 0.6767971946230275,
+        "support": 848.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        270,
+        232,
+        142
+      ],
+      [
+        176,
+        590,
+        142
+      ],
+      [
+        92,
+        177,
+        579
+      ]
+    ],
+    "support": 2400
+  },
+  "per_language": {
+    "hau": {
+      "accuracy": 0.635,
+      "macro_precision": 0.637615488782603,
+      "macro_recall": 0.6359655252737014,
+      "macro_f1": 0.6318683103922865,
+      "weighted_f1": 0.6313329989985532,
+      "per_class": {
+        "negative": {
+          "precision": 0.5512820512820513,
+          "recall": 0.6490566037735849,
+          "f1-score": 0.5961871750433275,
+          "support": 265.0
+        },
+        "neutral": {
+          "precision": 0.6310679611650486,
+          "recall": 0.48148148148148145,
+          "f1-score": 0.5462184873949579,
+          "support": 270.0
+        },
+        "positive": {
+          "precision": 0.7304964539007093,
+          "recall": 0.7773584905660378,
+          "f1-score": 0.753199268738574,
+          "support": 265.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          172,
+          52,
+          41
+        ],
+        [
+          105,
+          130,
+          35
+        ],
+        [
+          35,
+          24,
+          206
+        ]
+      ],
+      "support": 800
+    },
+    "yor": {
+      "accuracy": 0.595,
+      "macro_precision": 0.569846209444266,
+      "macro_recall": 0.5656044766592434,
+      "macro_f1": 0.5634738684527303,
+      "weighted_f1": 0.5951013741378576,
+      "per_class": {
+        "negative": {
+          "precision": 0.4,
+          "recall": 0.3793103448275862,
+          "f1-score": 0.3893805309734513,
+          "support": 174.0
+        },
+        "neutral": {
+          "precision": 0.5710227272727273,
+          "recall": 0.7027972027972028,
+          "f1-score": 0.6300940438871473,
+          "support": 286.0
+        },
+        "positive": {
+          "precision": 0.7385159010600707,
+          "recall": 0.6147058823529412,
+          "f1-score": 0.6709470304975923,
+          "support": 340.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          66,
+          73,
+          35
+        ],
+        [
+          46,
+          201,
+          39
+        ],
+        [
+          53,
+          78,
+          209
+        ]
+      ],
+      "support": 800
+    },
+    "ibo": {
+      "accuracy": 0.56875,
+      "macro_precision": 0.5540757739019374,
+      "macro_recall": 0.5222633782875428,
+      "macro_f1": 0.500033932874086,
+      "weighted_f1": 0.5332279804199633,
+      "per_class": {
+        "negative": {
+          "precision": 0.5245901639344263,
+          "recall": 0.15609756097560976,
+          "f1-score": 0.24060150375939848,
+          "support": 205.0
+        },
+        "neutral": {
+          "precision": 0.5873015873015873,
+          "recall": 0.7357954545454546,
+          "f1-score": 0.6532156368221942,
+          "support": 352.0
+        },
+        "positive": {
+          "precision": 0.5503355704697986,
+          "recall": 0.6748971193415638,
+          "f1-score": 0.6062846580406654,
+          "support": 243.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          32,
+          107,
+          66
+        ],
+        [
+          25,
+          259,
+          68
+        ],
+        [
+          4,
+          75,
+          164
+        ]
+      ],
+      "support": 800
+    }
+  },
+  "labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "split_counts": {
+    "hau_train": 1000,
+    "yor_train": 1000,
+    "ibo_train": 1000,
+    "hau_validation": 800,
+    "yor_validation": 800,
+    "ibo_validation": 800,
+    "hau_test": 800,
+    "yor_test": 800,
+    "ibo_test": 800
+  },
+  "protocol": "official train/validation/test splits; checkpoint selected only on validation macro-F1; test evaluated once"
+}
