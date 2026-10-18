@@ -4,6 +4,12 @@
 
 > **Scope and interpretation.** The benchmark is NaijaSenti Version 1.0: annotated Twitter posts collected for research, not a representative sample of all Nigerian opinions or all domains. The supplied local checkpoint is explicitly subset-trained because full end-to-end training exceeded the available CPU run window; `artifacts/model_metadata.json` records the exact caps. The code supports full-data training on a faster machine. Do not describe the subset metrics as full-test-set performance.
 
+## Devlify
+
+An academic project in the [Devlify GitHub collection](https://github.com/devlify-marketplace).
+
+[Visit Devlify](https://devlify.com.ng) · [Browse the marketplace](https://devlify.com.ng/marketplace)
+
 ## What is included
 
 - `scripts/download_data.py`: downloads the publisher's raw official TSV files for Hausa (`hau`), Igbo (`ibo`) and Yoruba (`yor`) from the NaijaSenti GitHub repository, converts the publisher's `dev` partition to `validation`, and writes checksums and a manifest. It executes no remote dataset code.
